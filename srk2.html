@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Modern Portfolio - Jane Smith</title>
+<style>
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  header {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: white;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  header h1 {
+    font-weight: 900;
+    font-size: 3rem;
+    margin: 0;
+  }
+  nav {
+    margin-top: 1rem;
+  }
+  nav a {
+    color: #d7d7ff;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+  }
+  nav a:hover {
+    color: #fff;
+  }
+  .intro {
+    max-width: 800px;
+    margin: 2rem auto;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  .blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 3rem auto;
+  }
+  .block {
+    background: white;
+    flex: 1 1 300px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    padding: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    header {
+  background: 
+    linear-gradient(rgba(42, 17, 75, 0.7), rgba(37, 117, 252, 0.7)),
+    url('"C:\Users\saidu\Downloads\images432.jpg".jpg') no-repeat center center/cover;
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center;
+  position: relative;
+}
+  }
+  .block:nth-child(odd) {
+    border-top: 8px solid #6a11cb;
+  }
+  .block:nth-child(even) {
+    border-top: 8px solid #2575fc;
+  }
+  .block:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.1);
+  }
+  .block h2 {
+    margin-top: 0;
+    font-weight: 700;
+    color: #222;
+  }
+  .block ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .block ul li {
+    padding: 0.5rem 0;
+    border-bottom: 1px dotted #ddd;
+  }
+  footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: #20232a;
+    color: #aaa;
+    margin-top: 4rem;
+  }
+  .social-icons {
+    margin-top: 1rem;
+  }
+  .social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+  .social-icons a:hover {
+    transform: scale(1.2);
+  }
+  .social-icons svg {
+    width: 28px;
+    height: 28px;
+    fill: #2575fc;
+    vertical-align: middle;
+  }
+  .certificates {
+    text-align: center;
+    margin: 2rem auto;
+  }
+  .certificates a {
+    background: #2575fc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  .certificates a:hover {
+    background: #6a11cb;
+  }
+  @media(max-width: 700px) {
+    .blocks {
+      flex-direction: column;
+      margin: 2rem 1rem;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Saidulu Shaik </h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="intro" id="about">
+  <h2> Introduction</h2>
+  <p>Hello! I'm Saidulu shaik, a passionate Frontend Developer with a strong focus on creating engaging and interactive web applications. My goal is to bridge the gap between design and technology by building user-friendly digital experiences that leave a lasting impact.</p>
+</section>
+
+<section class="blocks" id="projects">
+  <div class="block">
+    <h2>Featured Projects</h2>
+    <ul>
+      <li>Responsive E-commerce Web App</li>
+      <li>Interactive Portfolio Showcase</li>
+      <li>story hub website</li>
+      <li>Real-time Chat Application</li>
+    </ul>
+  </div>
+  <div class="block">
+    <h2>Skills & Expertise</h2>
+    <ul>
+        <li>MS office & Excel</li>
+      <li>HTML5, CSS3, JavaScript</li>
+      <li>React & boostrap </li>
+      <li>core java</li>
+    </ul>
+  </div>
+  <div class="block">
+    <h2>My Strengths</h2>
+    <ul>
+      <li>Flexible</li>
+      <li>Self-Motivated</li>
+      <li>Team work and Collebaration</li>
+      <li>Hardworking</li>
+    </ul>
+  </div>
+    <div class="block">
+    <h2>Hobbies</h2>
+    <ul>
+      <li>Swimming</li>
+      <li>Listening Music</li>
+    </ul>
+  </div>
+
+</section>
+
+<section id="certificates" class="certificates">
+  <h2>Certificates</h2>
+  <a href="your-certificates-link.pdf" target="_blank">View My Certificates</a>
+</section>
+
+<section id="contact" style="max-width: 600px; margin: 2rem auto; text-align:center;">
+  <h2>Get in Touch</h2>
+  <p>Gmail: saidulushaik112@gmail.com | Phone:7680848544</p>
+  <div class="social-icons">
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/shaiksaidulu20" target="_blank" aria-label="LinkedIn">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+        <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1
+        C24.09 108.1 0 83.5 0 53.8 0 24.1 24.09-.1 53.79-.1c29.7 
+        0 53.8 24.1 53.8 53.9 0 29.7-24.1 53.8-53.8 
+        53.8zM447.9 448h-92.4V305.8c0-33.9-.7-77.6-47.3-77.6-47.3 
+        0-54.5 37-54.5 75.2V448h-92.4V148.9h88.7v40.8h1.3c12.3-23.3 
+        42.5-47.9 87.4-47.9 93.5 0 110.7 61.5 110.7 
+        141.3V448z"/>
+      </svg>
+    </a>
+    <!-- WhatsApp -->
+    <a href="https://wa.me/1234567890" target="_blank" aria-label="WhatsApp">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+        <path d="M380.9 97.1C339 
+        55.1 283.2 32 223.9 32 103.5 32 6.3 129.2 6.3 249.6c0 
+        43.9 11.6 86.6 33.7 123.9L0 480l109.6-39.3c35.2 19.3 
+        74.6 29.5 114.3 29.5h.1c120.4 0 217.6-97.2 
+        217.6-217.6 0-59.2-23.1-115-65.1-156.9zM223.9 
+        426.6c-33.6 0-66.6-9-95.4-26.1l-6.8-4.1-65 
+        23.3 22.3-66.4-4.4-6.9c-21.9-34-33.4-73.3-33.4-113.9 
+        0-117.1 95.4-212.5 212.5-212.5 56.7 0 110 
+        22.1 150.1 62.1 40.1 40 62.1 93.4 62.1 
+        150.1-.1 117.1-95.5 212.5-212.6 
+        212.5zm116.3-158.6c-6.4-3.2-37.8-18.6-43.7-20.7-5.9-2.1-10.2-3.2-14.6 
+        3.2-4.5 6.4-16.8 20.7-20.6 25-3.8 
+        4.3-7.6 4.8-14 1.6-6.4-3.2-27-9.9-51.4-31.5-19-17-31.8-37.9-35.6-44.3-3.7-6.4-.4-9.9 
+        2.8-13.1 2.9-2.9 6.4-7.6 9.6-11.5 3.2-3.8 
+        4.2-6.4 6.4-10.7 2.1-4.3 1-8-0.5-11.2-1.6-3.2-14.6-35-20-47.9-5.3-12.8-10.7-11-14.6-11h-12.5c-4.3 
+        0-11.5 1.6-17.5 8-6.1 6.4-23.1 22.5-23.1 
+        55.0s23.7 63.7 27 68.1c3.2 4.3 46.7 71.3 113.1 
+        100.1 15.8 6.8 28.1 10.9 37.7 13.9 15.8 
+        5 30.2 4.3 41.6 2.6 12.7-1.9 37.8-15.4 
+        43.2-30.3 5.4-15 5.4-27.8 3.8-30.5-1.6-2.6-5.9-4.2-12.3-7.4z"/>
+      </svg>
+    </a>
+  </div>
+</section>
+
+<footer>
+    <H2>Thanks for visting </H2> 
+  &copy; 2025 Saidulu Shaik. All rights reserved.
+</footer>
+
+</body>
+</html>
